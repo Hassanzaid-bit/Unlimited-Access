@@ -11,8 +11,7 @@
     "permissions" : [
         "tabs",
         "cookies"],
-    "browser_action": {
-    },
+    "browser_action": { "default_icon": "cookie.png"},
     "content_scripts" : [{
         "matches": ["https://*/*"],
         "js" : ["content.js"]
